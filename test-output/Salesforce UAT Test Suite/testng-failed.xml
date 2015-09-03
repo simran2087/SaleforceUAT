@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Salesforce UAT Test Suite]">
+  <parameter name="browser" value="firefox"/>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="UAT.Salesforce.TestSuite.Login">
+        <methods>
+          <include name="setup"/>
+          <include name="closeFunction"/>
+        </methods>
+      </class> <!-- UAT.Salesforce.TestSuite.Login -->
+      <class name="UAT.Salesforce.TestSuite.Pack">
+        <methods>
+          <include name="testLeads" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- UAT.Salesforce.TestSuite.Pack -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Salesforce UAT Test Suite] -->
