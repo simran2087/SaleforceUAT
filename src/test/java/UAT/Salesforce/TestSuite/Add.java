@@ -26,8 +26,9 @@ public class Add extends WebDriverFunctions {
 		getDriver().findElement(By.id(ObjectRepo.GUIConstants.postcode)).sendKeys(addpostcode);
 		Thread.sleep(1000);
 		getDriver().findElement(By.name(ObjectRepo.GUIConstants.saveadd)).click();	
-		
-		
+		Thread.sleep(1000);
+		getDriver().findElement(By.xpath(ObjectRepo.GUIConstants.navigate2lead)).click();	
+		Thread.sleep(3000);
 	//	getDriver().close();
 		
 		

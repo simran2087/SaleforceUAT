@@ -95,6 +95,29 @@ public class CommonFunctions {
 		return strr;
 		}
 	
+	
+	
+	public String jobref(){
+		Random x=new Random();
+		int num = 0; 
+		String jobref="";
+		for(int i=1;i<=1;i++)
+		{
+		num=x.nextInt(123);
+		System. out. println("num is "+num);
+		
+		jobref = "1"+Integer.toString(num)+"1122111";
+		 
+		 
+		
+		}
+		
+		System.out.println("before returning, value is :"+ jobref);
+		return jobref;
+	
+	
+	}
+	
 }
 		
 		

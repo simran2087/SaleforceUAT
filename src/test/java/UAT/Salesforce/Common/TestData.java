@@ -19,7 +19,7 @@ public class TestData {
 		//BG Customer Reference -  Function to be used
 		data[0][2]="British Gas Website";   								//Customer Awareness
 		data[0][3]="No Relationship";										//Existing BG relationship
-		data[0][4]="Upfront";												//Card Payment type
+		data[0][4]="Pre-Auth";												//Card Payment type
 		data[0][5]="";												
 								
 		return data;
@@ -41,7 +41,7 @@ public class TestData {
 		public static Object [][] packfunc() {
 			Object data[][]=new Object[1][3];
 		
-			data[0][0]="Standard - £199";  									//pack
+			data[0][0]="Hive 2 - Standard £249";  							//pack
 			data[0][1]=""; 												    //Voucher code
 			data[0][2]="Single Channel";									// Channel for Self Install
 			

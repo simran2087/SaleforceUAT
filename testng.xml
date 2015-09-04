@@ -15,7 +15,7 @@
        <class name ="UAT.Salesforce.TestSuite.Lead"></class>
         <class name ="UAT.Salesforce.TestSuite.Pack"></class>
         <class name ="UAT.Salesforce.TestSuite.Add"></class>
-       
+       <class name ="UAT.Salesforce.TestSuite.Job"></class>
     </classes>
   </test>
 </suite>

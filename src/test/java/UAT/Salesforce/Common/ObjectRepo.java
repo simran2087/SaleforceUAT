@@ -51,6 +51,23 @@ public class ObjectRepo {
     String county="pgAddress:frmMain:pgbAddressDetail:pgbAddressInformation:county";  //id
     String postcode="pgAddress:frmMain:pgbAddressDetail:pgbAddressInformation:postcode";  //id
     String saveadd="pgAddress:frmMain:pgbAddressDetail:j_id28:j_id29"; //name
+    String navigate2lead="html/body/div[1]/div[2]/table/tbody/tr/td[2]/div[4]/div[2]/div[5]/table/tbody/tr[1]/td[4]/a"; //id
+    
+//**************************************************JOB PAGE**************************************************************    
+    
+    String jobbtn="newjobfromleadandopportunity";
+    String jobref="00N20000008NxhZ";
+    String jobstatus="00N20000009YXJ5";
+    String jobdate="00N200000096fOo";
+    String jobslot="00N200000096fOy";
+    String jobselectdate="calToday";  //class
+    String jobsave="save";  //name
+    String job2lead="html/body/div[1]/div[2]/table/tbody/tr/td[2]/div[4]/div[2]/div[10]/table/tbody/tr[1]/td[2]/div/a";  //xpath
+   
+ //**************************************************JOB PAGE**************************************************************    
+
+    String convertlead="convert";
+    
 	
 	}
 	

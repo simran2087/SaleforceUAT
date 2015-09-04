@@ -23,7 +23,7 @@ public class Pack extends WebDriverFunctions {
 	public void testLeads(String pack, String vcode, String packchanel) throws InterruptedException  {
 
 //**************************************************SF LOGIN*************************************************************	
-		System.out.println("in pack class function");
+		//System.out.println("in pack class function");
 		getDriver().findElement(By.xpath(ObjectRepo.GUIConstants.addpack)).click();
 		Thread.sleep(1500);
 		getDriver().findElement(By.id(ObjectRepo.GUIConstants.packid)).sendKeys(pack);
